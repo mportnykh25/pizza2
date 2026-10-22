@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <circle cx="128" cy="128" r="124" fill="#C8102E"/>
+  <circle cx="128" cy="128" r="112" fill="none" stroke="#FFF3D6" stroke-width="3"/>
+  <!-- slice -->
+  <path d="M128 214 L48 78 Q128 44 208 78 Z" fill="#FFC94D" stroke="#E8A317" stroke-width="3" stroke-linejoin="round"/>
+  <!-- crust -->
+  <path d="M44 76 Q128 38 212 76" fill="none" stroke="#D9923B" stroke-width="16" stroke-linecap="round"/>
+  <path d="M50 70 Q128 36 206 70" fill="none" stroke="#EDB362" stroke-width="5" stroke-linecap="round"/>
+  <!-- pepperoni -->
+  <circle cx="108" cy="104" r="15" fill="#B3262E"/><circle cx="108" cy="104" r="15" fill="none" stroke="#7E1219" stroke-width="2"/>
+  <circle cx="152" cy="110" r="14" fill="#B3262E"/><circle cx="152" cy="110" r="14" fill="none" stroke="#7E1219" stroke-width="2"/>
+  <circle cx="130" cy="146" r="13" fill="#B3262E"/><circle cx="130" cy="146" r="13" fill="none" stroke="#7E1219" stroke-width="2"/>
+  <circle cx="102" cy="104" r="3" fill="#E5636A"/><circle cx="146" cy="110" r="3" fill="#E5636A"/><circle cx="124" cy="146" r="3" fill="#E5636A"/>
+  <!-- basil -->
+  <ellipse cx="136" cy="84" rx="7" ry="4" fill="#4C9A2A" transform="rotate(-20 136 84)"/>
+  <ellipse cx="88" cy="90" rx="6" ry="3.5" fill="#4C9A2A" transform="rotate(25 88 90)"/>
+</svg>
