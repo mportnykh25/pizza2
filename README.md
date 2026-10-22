@@ -1,7 +1,12 @@
 # Slice Street Pizza: feedback app (starter)
 
-Type a customer comment and choose a star rating (1 to 5). The app labels the comment
-(positive or negative), saves it to `feedback.csv`, and shows:
+Imagine you run a pizza company. Customers leave feedback, you store it, and you analyze the
+data later. The app has two tabs.
+
+**Customer tab:** type a comment and choose a star rating (1 to 5). The app labels the comment
+(positive or negative) and saves it to `feedback.csv`.
+
+**Owner tab:** the analysis, which shows:
 1. how many comments are positive vs negative,
 2. the average star rating for each label,
 3. the comments to read carefully: a positive label with a low rating, or a negative label

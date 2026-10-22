@@ -22,12 +22,12 @@ URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
 def _get_key():
-    key = os.environ.get("groq-key-try1")
+    key = os.environ.get("GROQ_API_KEY")
     if key:
         return key
     try:
         import streamlit as st
-        return st.secrets.get("groq-key-try1")
+        return st.secrets.get("GROQ_API_KEY")
     except Exception:
         return None
 
